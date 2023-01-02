@@ -31,7 +31,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "ZoKratesPlus"
 description              : "Zero-knowledge-based Business Solutions."
 url                      : https://zokratesplus.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
