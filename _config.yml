@@ -1,9 +1,12 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
+# which you are expected to set up once and rarely need to edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Theme Settings
 #
@@ -13,9 +16,14 @@
 #theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin2    : "dark" # required to toggle between bright/dark mode
+minimal_mistakes_skin2    : "dark" # customized --> required to toggle between bright/dark mode
 
-# Site Settings
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 locale                   : "en-US"
 title                    : "ZoKratesPlus"
 title_separator          : "-"
@@ -23,7 +31,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "ZoKratesPlus"
 description              : "Zero-knowledge-based Business Solutions."
 url                      : https://zokratesplus.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ZoKratesPlus # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/zokrates_logo_88.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/zokrates_logo_88-transparent.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -157,6 +165,17 @@ footer:
 include:
   - .htaccess
   - _pages
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/  
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -304,5 +323,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-
