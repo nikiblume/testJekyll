@@ -22,7 +22,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
-search: true
+minimal_mistakes_skin2    : "dark" # required to toggle between bright/dark mode
+search: true #
 
 # Build settings
 markdown: kramdown
