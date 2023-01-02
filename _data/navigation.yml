@@ -1,0 +1,58 @@
+# main links
+main:
+  - title: "Application"
+    url: /application/
+  - title: "Education"
+    url: /education/
+  - title: "About"
+    url: /about/
+  - title: "Sample Posts"
+    url: /posts/
+  #- title: "Sample Collections"
+  #  url: /categories/
+  #- title: "Sitemap"
+  #  url: /sitemap/
+
+tutorials:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /education/
+      - title: "Installation"
+        url: /education/
+      - title: "Hello-World"
+        url: /education/
+
+  - title: Beginner
+    children:
+      - title: "Tut1"
+        url: /education/
+      - title: "Tut2"
+        url: /education/
+      - title: "Tut3"
+        url: /education/
+      - title: "Tut4"
+        url: /education/
+
+  - title: Advanced
+    children:
+      - title: "Tut1"
+        url: /education/
+      - title: "Tut2"
+        url: /education/
+      - title: "Tut3"
+        url: /education/
+      - title: "Tut4"
+        url: /education/
+
+  - title: Pro
+    children:
+      - title: "Tut1"
+        url: /education/
+      - title: "Tut2"
+        url: /education/
+      - title: "Tut3"
+        url: /education/
+      - title: "Tut4"
+        url: /education/        
+   
