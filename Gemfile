@@ -9,12 +9,14 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-# gem "github-pages", group: :jekyll_plugins
-
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+#gem "tzinfo-data"
+#gem "wdm", "~> 0.1.0" if Gem.win_platform?
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
-gem "minimal-mistakes-jekyll"
+#gem "jekyll"
+#gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:
 group :jekyll_plugins do
@@ -25,10 +27,11 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
-  #gem 'jekyll-toc'
 end
 #
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
 end
+
+gem "webrick", "~> 1.7"
